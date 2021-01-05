@@ -1,0 +1,218 @@
+html {
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  text-align: center;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family:'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  direction: rtl;
+  background-image: url('Hearts.jpg');
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+.heder{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px 0px 20px 0px;
+  animation: blink 2.5s infinite;
+}
+
+@keyframes blink {
+  0%{color: rgb(0, 0, 255);}
+  50%{color: rgb(255, 0, 0);}
+  100%{color: rgb(0, 0, 255);}
+}
+
+#edd{
+  font-weight: bold;
+  font-size: 20px;
+  width: 160px;
+  position: absolute;
+  top:90px;
+  left:80px;
+  animation: blink2 2.5s infinite;
+}
+@keyframes blink2 {
+  0%{background-color: rgb(0, 0, 255);}
+  50%{background-color: rgb(255, 0, 0);}
+  100%{background-color: rgb(0, 0, 255);}
+}
+
+.bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.835);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#eddUser{
+  animation: blink 2.5s infinite;
+  animation: blink3 2.5s infinite;
+  border: 1.5px solid ;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
+@keyframes blink3 {
+  0%{border-color: rgb(0, 0, 255);}
+  50%{border-color: rgb(255, 0, 0);}
+  100%{border-color: rgb(0, 0, 255);}
+}
+
+.eddInput{
+  border-bottom: 2px solid ;
+  animation: blink3 2.5s infinite;
+  border-radius: 0px;
+}
+
+#eddSelect{
+  border: none;
+  border-bottom: 2px solid ;
+  animation: blink3 2.5s infinite;
+  width: 166px;
+  animation: blink 2.5s infinite;
+  outline: none;
+}
+
+.eddButton{
+  animation: blink2 2.5s infinite;
+  width: 120px;
+}
+
+#people{
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#people:hover{  
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.288);
+  transition: 0.3s;
+}
+
+h1{
+  margin: 15px 0px 5px 0px;
+  font-size: 25px;
+}
+
+h2{
+  margin: 5px 0px;
+  font-size: 17px;
+}
+
+.man{
+  color: blue;
+  border: 1.5px solid rgba(0, 0, 255, 0.24);
+  background: rgba(0, 0, 255, 0.10);
+}
+
+.women{
+  color: red;
+  border: 1.5px solid rgba(255, 0, 0, 0.24);
+  background: rgba(255, 0, 0, 0.10);
+}
+
+button{
+  margin: 0px 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-top: 5px ;
+}
+
+.manButton{
+  background-color: rgba(0, 0, 255, 0.52);
+}
+.manButton:hover{
+  background-color: blue;
+}
+.manButton:active{
+  background-color: rgba(0, 0, 255, 0.52);
+}
+
+.womenButton{
+  background-color: rgba(255, 0, 0, 0.52);
+}
+.womenButton:hover{
+  background-color: red;
+}
+.womenButton:active{
+  background-color: rgba(255, 0, 0, 0.52);
+}
+
+
+#manEdit{
+  background-color: rgb(190, 158, 250);
+  width: 250px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#womenEdit{
+  background-color: rgb(250, 158, 158);
+  width: 250px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Invisible{
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  transition: 0.7s;
+  opacity: 0;
+}
+
+.visible{
+  transition: 0.7s;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+input{
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+.manInput{
+  color: blue;
+}
+
+.womenInput{
+  color: red;
+}
+
+.error{
+  height: 15px;
+  font-size: 14px;
+  color: red;
+  font-weight: 500;
+}
