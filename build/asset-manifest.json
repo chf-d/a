@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/a/static/css/main.9e4870f9.chunk.css",
-    "main.js": "/a/static/js/main.d3df12b6.chunk.js",
-    "main.js.map": "/a/static/js/main.d3df12b6.chunk.js.map",
-    "runtime-main.js": "/a/static/js/runtime-main.823aae78.js",
-    "runtime-main.js.map": "/a/static/js/runtime-main.823aae78.js.map",
-    "static/js/2.d2562484.chunk.js": "/a/static/js/2.d2562484.chunk.js",
-    "static/js/2.d2562484.chunk.js.map": "/a/static/js/2.d2562484.chunk.js.map",
-    "index.html": "/a/index.html",
-    "static/css/main.9e4870f9.chunk.css.map": "/a/static/css/main.9e4870f9.chunk.css.map",
-    "static/js/2.d2562484.chunk.js.LICENSE.txt": "/a/static/js/2.d2562484.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/a/static/media/Hearts.f0f3caba.jpg"
+    "main.css": "/dating-site/static/css/main.82d35263.chunk.css",
+    "main.js": "/dating-site/static/js/main.44e8e5f3.chunk.js",
+    "main.js.map": "/dating-site/static/js/main.44e8e5f3.chunk.js.map",
+    "runtime-main.js": "/dating-site/static/js/runtime-main.f308e876.js",
+    "runtime-main.js.map": "/dating-site/static/js/runtime-main.f308e876.js.map",
+    "static/js/2.d2562484.chunk.js": "/dating-site/static/js/2.d2562484.chunk.js",
+    "static/js/2.d2562484.chunk.js.map": "/dating-site/static/js/2.d2562484.chunk.js.map",
+    "index.html": "/dating-site/index.html",
+    "static/css/main.82d35263.chunk.css.map": "/dating-site/static/css/main.82d35263.chunk.css.map",
+    "static/js/2.d2562484.chunk.js.LICENSE.txt": "/dating-site/static/js/2.d2562484.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dating-site/static/media/Hearts.f0f3caba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.823aae78.js",
+    "static/js/runtime-main.f308e876.js",
     "static/js/2.d2562484.chunk.js",
-    "static/css/main.9e4870f9.chunk.css",
-    "static/js/main.d3df12b6.chunk.js"
+    "static/css/main.82d35263.chunk.css",
+    "static/js/main.44e8e5f3.chunk.js"
   ]
 }
